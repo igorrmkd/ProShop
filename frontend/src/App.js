@@ -1,8 +1,15 @@
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+
 // function App() {
 const App = () => {
   return (
     <>
-      <h1>Welcome To Proshop</h1>
+      <Header />
+      <main>
+        <h1>Welcome To Proshop</h1>
+      </main>
+      <Footer />
     </>
   );
 };
