@@ -26,7 +26,7 @@ const ProductScreen = ({ match }) => {
     };
 
     fetchProduct();
-  }, []);
+  }, [match]); // add match as a dependency, to fix a warning
 
   return (
     <>
