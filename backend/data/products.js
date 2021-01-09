@@ -79,6 +79,6 @@ const products = [
   },
 ];
 
-// export default products  // es6 modules with node > v14
+export default products; // es6 modules with node > v14
 
-module.exports = products;
+// module.exports = products; // common js

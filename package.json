@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "This project is bulit in the course [MERN eCommerce From Scratch](https://www.udemy.com/course/mern-ecommerce/).",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "start": "node backend/server",
     "server": "nodemon backend/server",
